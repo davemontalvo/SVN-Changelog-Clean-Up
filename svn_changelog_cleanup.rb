@@ -1,10 +1,12 @@
-# pulls out relevant lines from a history-generated
-# svn changelog so I can see what files have changed
-# since the last relase... so I know what files
-# to make live for the current release
+# Filters an SVN changeLog file so that only the SVN operation and the path are displayed.
+# Assumes the changlog was generated from a trunk/
+
+# modify these according to your environment
+input_file = "changeLog.txt"
+output_file = "output.txt"
 
 # get interesting lines out of file
-file = File.new "changeLog.txt"
+file = File.new input_file
 arr = Array.new
 file.each {
   |line|
@@ -32,7 +34,7 @@ arr.each {
 }
 
 # print results
-file = File.new "output.txt", "w"
+file = File.new output_file, "w"
 file.write out
 file.close
 
