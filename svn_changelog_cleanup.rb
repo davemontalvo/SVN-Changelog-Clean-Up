@@ -1,5 +1,5 @@
 # Filters an SVN changeLog file so that only the SVN operation and the path are displayed.
-# Assumes the changlog was generated from a trunk/
+# Assumes the changelog was generated from a trunk/
 
 # modify these according to your environment
 input_file = "changeLog.txt"
