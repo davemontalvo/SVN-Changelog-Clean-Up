@@ -2,19 +2,19 @@ Filters an SVN changeLog file so that only the SVN operation and the path are di
 Assumes the changelog was generated from a trunk/
 
 Turns this:
-		r2127 | tim | 2011-05-19 15:45:02 EDT
+		r2127 | user | 2011-05-19 15:45:02 EDT
 		Changed paths:
 			M /trunk/Test_Dir/test1.php
 		
 		some comment
 		----------------------------------------------------------------------------
-		r2126 | tim | 2011-05-19 15:44:56 EDT
+		r2126 | user | 2011-05-19 15:44:56 EDT
 		Changed paths:
 			M /trunk/Test_Dir/test1.php
 		
 		some comment
 		----------------------------------------------------------------------------
-		r2124 | tim | 2011-05-19 14:25:58 EDT
+		r2124 | user | 2011-05-19 14:25:58 EDT
 		Changed paths:
 			M /trunk/Test_Dir/test2.php
 		
